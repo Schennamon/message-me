@@ -10,10 +10,10 @@
       <%= render 'form' %>
     </div>
     <div class="middle aligned column">
-      <div class="ui big orange button">
-        <i class="signup icon"></i>
-        Sign Up
-      </div>
+        <%= link_to "<div class=\"ui big orange button\">
+                      <i class=\"signup icon\"></i>
+                        Sign up
+                    </div>".html_safe, new_user_path %>
     </div>
   </div>
   <div class="ui vertical divider">
